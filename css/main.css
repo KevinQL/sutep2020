@@ -1,0 +1,118 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.logo{
+    width: 0px;
+}
+
+.presentacion{
+    background: linear-gradient(rgba(190, 149, 95, 0.8),rgba(155,35,234,.7)), url("../img/auditorio2.jpg");
+    /*background: linear-gradient(rgba(95,114,190,.8),rgba(155,35,234,.7)), url("../img/auditorio2.jpg");*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.texto-presentacion{
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-family: 'Bookman Old Style', serif;
+}
+.inptex-email{
+    background: transparent !important;
+    color: #fff !important;
+    text-transform: uppercase;
+}
+.ul-redes li a i{
+    color: rgb(41, 159, 238);
+    font-size: 35px;
+    margin: 0px 10px;
+}
+
+/*-------*/
+.seccion-forum{
+    background: #301f0188;
+    position: absolute;
+    display: block;
+    width: 100%; 
+}
+.clip-forum{
+    background:rgba(30, 0, 54, 0.699);
+    height: 100px;
+    clip-path: polygon(0% 0%, 100% 0%, 98% 30%, 4% 100%);    
+}
+
+.text-1{
+
+    font: 48px 'monsterrat';
+    font-weight: 500;
+    margin-bottom: 15px;
+    color:rgba(255, 255, 255, 0.507);
+}
+.text-2{
+    position: relative;
+    margin-top: -85px;
+    color: #353535;
+    font: 53px 'Montserrat';
+}
+
+.caja-padre{
+    position: relative;
+    height: 290px;
+    background:#FFF;
+}
+
+.texto-centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-naranja{
+    color:rgba(212, 173, 0, 0.925);
+}
+
+.nav-espacio-forum{
+    height: 56px;
+}
+
+/*hr {border: 0; border-top: 1px solid #999; border-bottom: 1px solid #333; height:0;}*/
+.linea{
+    border: 0;    
+    height: 2px;
+    text-align: center;   
+}
+.linea1{
+    background-image: linear-gradient(to left, #fff, rgb(61, 0, 48), #fff);
+}
+.linea2{
+    background-image: linear-gradient(to left, #fff, rgb(0, 49, 61), #fff);
+}
+.linea3{
+    background-image: linear-gradient(to left, #fff, rgb(61, 29, 0), #fff);
+}
+.linea-noticias{
+    background-image: linear-gradient(to left, #fff, rgb(234, 238, 0), #fff);
+}
+
+
+.pg-numer{
+    position: relative;
+    display: inline-block;
+}
+.btn-color-noticia {
+    color: #212529;
+    background-color: #07daff;
+    border-color: #07daff;
+}
+
+@media screen and (min-width:480px){
+    .display-md-none{
+        display: none;
+    }
+    .espacio-numer{
+        height: 230px;
+    }
+}

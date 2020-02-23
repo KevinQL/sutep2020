@@ -1,0 +1,109 @@
+.navbar-k{
+    box-shadow: 0px 3px 5px rgba(255, 159, 67,.3);
+    background: rgba(44, 21, 0, 0.3)!important;
+}
+.navbar-k2{
+    box-shadow: 0px 3px 5px rgba(255, 159, 67,1.0);
+    opacity: .5;
+}
+.navbar-k .nav-item .nav-link-k{
+    color:white;
+    /* font-weight: 600; */
+    /* border-top: .5px solid #fff; */
+    padding-left: .7em;     
+}
+
+.img-logo{
+    position: absolute;
+    width: 70px; /*30px*/    
+    top: 12px;
+    margin-left: 4px;
+}
+
+/*PÁGINA FÓRUM */
+.secction-principal{
+    background: url(../img/andahuaylas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 100%;
+    
+}
+
+.pantalla-transparent{
+    background: rgba(48, 51, 107,.4);
+    background-size: cover;
+
+}
+
+
+.equipo-container{
+    background: rgba(41, 174, 252, 0.829);
+    /* background: rgba(255, 159, 67,.4);  */
+    /* #30336b; */
+}
+
+.team-sutep{
+    background: url(../img/logosutep.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.fondo-transparent{
+    background: rgba(255, 159, 67,.8);
+}
+.card-person-sutep{
+    
+    opacity: .7;
+}
+
+.fondo-transparente{
+    /*background: rgba(252, 146, 46, 0.253); /*rgba(48, 51, 107,.5)*/
+    background:linear-gradient(rgba(190, 149, 95, 0.9),rgba(155,35,234,.8));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 580px; 
+}
+
+
+/* COLOR PIE CONTACTOS */
+.bg-contact{
+    background: #333;
+}
+.bg-text-contact{
+    background:#333;
+}
+
+.font-zises{
+    font-size: .9em;    
+}
+
+
+@media only screen and (max-width: 767px){
+    .fondo-transparente{
+        background: rgba(48, 51, 107,.5);
+    }
+    .option{
+        border-bottom: 1px solid #322;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 100px!important;
+    }
+}
+
+
+/* lenynnch */
+.colomenu{
+    background: rgba(41, 174, 252, 0.829);
+    opacity: 0.8;
+    color: black;
+ }
+.colorbarra{
+    background: rgba(41, 174, 252, 0.829);
+}
+.textcolor{
+    color: black;
+}
