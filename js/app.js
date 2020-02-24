@@ -11,6 +11,85 @@ sr.reveal('.presentacion',{
     distance:'50px',
     delay:1000
 });
+sr.reveal('.scrol-seccion-forum',{
+    duration:2000,
+    origin:'top',
+    distance:'150px',
+    delay:1200
+});
+sr.reveal('.scrol-clip',{
+    duration:4000,
+    origin:'bottom',
+    distance:'150px',
+    delay:1200
+});
+sr.reveal('.scrol-novedades',{
+    duration:1500,
+    origin:'right',
+    distance:'50px',
+    delay:1000
+});
+sr.reveal('.scrol-redes',{
+    duration:2500,
+    origin:'left',
+    distance:'150px',
+    delay:2000
+});
+sr.reveal('.scrol-sec1-left',{
+    duration:2500,
+    origin:'right',
+    distance:'70px',
+    delay:2000
+});
+sr.reveal('.scrol-sec1-right',{
+    duration:2500,
+    origin:'left',
+    distance:'70px',
+    delay:100
+});
+
+sr.reveal('.scrol-sec2-left',{
+    duration:2500,
+    origin:'right',
+    distance:'70px',
+    delay:100
+});
+sr.reveal('.scrol-sec2-right',{
+    duration:2500,
+    origin:'left',
+    distance:'70px',
+    delay:2000
+});
+
+//---------------forum
+
+sr.reveal('.scrol-dias-ponencias',{
+    duration:1700,
+    origin:'top',
+    distance:'400px',
+    delay:1000
+});
+
+//------organizac
+sr.reveal('.scrol-seccion-forum',{
+    duration:1200,
+    origin:'top',
+    distance:'200px',
+    delay:1200
+});
+sr.reveal('.scrol-team',{
+    duration:1200,
+    origin:'bottom',
+    distance:'200px',
+    delay:1000
+});
+//---------certificados
+sr.reveal('.scrol-certificado',{
+    duration:1500,
+    origin:'top',
+    distance:'200px',
+    delay:1000
+});
 /**********************************************************************************************************FIN*/
 
 

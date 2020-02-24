@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SutepAndahuaylas</title>
+    <title>SuteAndahuaylas</title>
 
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
@@ -20,7 +20,7 @@
 <body>    
 
     <?php
-        include_once("modules/navegacion.html");
+        include_once("modules/navegacion_otros.html");
     ?>
 
     <!-- PRESENTAACION -->
@@ -29,7 +29,7 @@
             <div class="row">
                 <div class="col-md-12 my-4">
                     <a href="#"><img src="img/logosutep.png" alt="logo" class="logo"></a>
-                    <h1 class="display-4 font-weight-bold text-center mt-4 text-uppercase">SUTEP-ANDAHUAYLAS</h1>
+                    <h1 class="display-4 font-weight-bold text-center mt-4 text-uppercase">SUTE-ANDAHUAYLAS</h1>
                 </div>
                 <div class="col-md-6 text-center">
                     <img src="img/logosutep.png" alt="imagen1" class="img-fluid" style="width: 285px;">
@@ -61,7 +61,7 @@
                     <form action="http://localhost/TRABAJOS/stp-nuev/?pg=forum">
                         <!--<input type="text" class="form-control rounded-0 my-4 text-center inptex-email" placeholder="Escribe tu Correo">
                         -->
-                        <h4 class="display-4 texto-naranja">EVENTO SUTEP 2020</h4>
+                        <h4 class="display-4 texto-naranja">EVENTO SUTE 2020</h4>
                         <a href="?pg=forum" class="btn btn-lg btn-outline-warning rounded-0 display-2">
                             IR A  FORÚM 20202
                         </a>
@@ -73,9 +73,9 @@
     </div>
 
     <!-- EVENTO FORÚM-->
-    <div class="caja-padre" id="forum">
+    <div class="caja-padre scrol-seccion-forum" id="forum">
         <div class="text-center pb-3 seccion-forum">
-            <div class="clip-forum mb-0"></div>
+            <div class="clip-forum mb-0 scrol-clip"></div>
     
             <h2 class="py-2">GRAN EVENTO 2020</h2>            
             <h2 class="text-1 text-uppercase">FORÚM - 2020</h2>
@@ -87,75 +87,47 @@
     <!--SECCION NOTCIAS -->
     
     <section class="container my-2">
-        <div class="row text-center">
-            <div class="col-md-8">
+        <div class="row text-center ">
+            <div class="col-md-8 scrol-novedades">
                 <h1>NOVEDADES</h1>
                 <hr class="linea linea3">
+                <div class="contenido_noticia">                
+                    <!--<div class="col-md-12">
+                        <h4>TITULO DE LA NOTICIA</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate itaque voluptas dolore incidunt autem ut nisi consequuntur eaque ducimus a.</p>
+                        <button class="btn btn-sm btn-color-noticia" data-toggle="modal" data-target="#staticBackdrop">ver mas</button>                    
+                    </div>
 
-                <div class="col-md-12">
-                    <h4>TITULO DE LA NOTICIA</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate itaque voluptas dolore incidunt autem ut nisi consequuntur eaque ducimus a.</p>
-                    <button class="btn btn-sm btn-color-noticia" data-toggle="modal" data-target="#staticBackdrop">ver mas</button>                    
+                    <hr class="linea linea-noticias">
+
+                    <div class="col-md-12">
+                        <h4>TITULO DE LA NOTICIA</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate itaque voluptas dolore incidunt autem ut nisi consequuntur eaque ducimus a.</p>
+                        <button class="btn btn-sm btn-color-noticia" data-toggle="modal" data-target="#staticBackdrop1">ver mas</button>     
+                    </div>
+
+                    <hr class="linea linea-noticias">
+
+                    <div class="col-md-12">
+                        <h4>TITULO DE LA NOTICIA</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate itaque voluptas dolore incidunt autem ut nisi consequuntur eaque ducimus a.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate itaque voluptas dolore incidunt autem ut nisi consequuntur eaque ducimus a.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate itaque voluptas dolore incidunt autem ut nisi consequuntur eaque ducimus a.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate itaque voluptas dolore incidunt autem ut nisi consequuntur eaque ducimus a.</p>
+                        <button class="btn btn-sm btn-color-noticia" data-toggle="modal" data-target="#staticBackdrop2">ver mas</button>                                        
+                    </div>
+
+                    <hr class="linea linea-noticias">
+                    -->
                 </div>
-
-                <hr class="linea linea-noticias">
-
-                <div class="col-md-12">
-                    <h4>TITULO DE LA NOTICIA</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate itaque voluptas dolore incidunt autem ut nisi consequuntur eaque ducimus a.</p>
-                    <button class="btn btn-sm btn-color-noticia" data-toggle="modal" data-target="#staticBackdrop">ver mas</button>                    
-                </div>
-
-                <hr class="linea linea-noticias">
-
-                <div class="col-md-12">
-                    <h4>TITULO DE LA NOTICIA</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate itaque voluptas dolore incidunt autem ut nisi consequuntur eaque ducimus a.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate itaque voluptas dolore incidunt autem ut nisi consequuntur eaque ducimus a.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate itaque voluptas dolore incidunt autem ut nisi consequuntur eaque ducimus a.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate itaque voluptas dolore incidunt autem ut nisi consequuntur eaque ducimus a.</p>
-                    <button class="btn btn-sm btn-color-noticia" data-toggle="modal" data-target="#staticBackdrop">ver mas</button>                                        
-                </div>
-
-                <hr class="linea linea-noticias">
-
-                <div class="col-md-12">
-                   
-<!-- Button trigger modal -->
-<!--
-<button type="button" class="btn btn-warning" data-toggle="modal" data-target="#staticBackdrop">
-  ver noticia
-</button>
--->
-
-<!-- Modal -->
-<div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="staticBackdropLabel">Titulo de Noticia</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <img src="img/logosutep.png" alt="" class="img-fluid">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, voluptatem alias nulla reprehenderit porro, fuga dolorem aperiam in eligendi voluptates doloremque possimus quasi iusto molestias expedita labore iure? Maxime, sint. Maxime nostrum vel accusantium? Sint officiis facilis veniam voluptate error?
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>        
-      </div>
-    </div>
-  </div>
-</div>
-
-                </div>
-
                 
                 <div class="nav-espacio-forum display-md-none"></div>
 
                 <div>
                     <div class="espacio-numer"></div>
+                    <div>
+                        <span id="num_pag_actual" class="text-muted">PAGINA 1</span>
+                    </div>
                     <div class="pg-numer">
                         <nav aria-label="Page navigation example">
                             <ul class="pagination justify-content-start">
@@ -174,13 +146,14 @@
                     </div>                    
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 scrol-redes">
                 <div class="nav-espacio-forum display-md-none"></div>
                 <h1>REDES</h1>
                 <hr class="linea linea2">
+                <!--
                 <iframe width="340" height="240" src="https://www.youtube.com/embed/fE0v6lZ3fuw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FRezuam-600773577055743%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-
+                -->
             </div>
         </div>
     </section>
@@ -188,10 +161,10 @@
     <!-- PRIMERA SECCION -->
     <section class="container my-2" id="">
         <div class="row text-center">
-            <div class="col-md-6">
+            <div class="col-md-6 scrol-sec1-left">
                 <img src="img/lib2.jpg" alt="" class="img-fluid">
             </div>
-            <div class="col-md-6 texto-centrar">
+            <div class="col-md-6 texto-centrar scrol-sec1-right">
                 <div>
                     <h3>POR UNA EDUCACIÓN</h3>
                     <p><i class="fas fa-book-reader fa-1x"></i></p>
@@ -205,7 +178,7 @@
     <section class="container mb-5" id="">
         <div class="row text-center">
             
-            <div class="col-md-6 texto-centrar">
+            <div class="col-md-6 texto-centrar scrol-sec2-left">
                 <div>
                     <h3>POR UNA LUCHA</h3>
                     <p><i class="fas fa-hand-rock fa-1x"></i></p>
@@ -213,7 +186,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sint molestias hic ipsa assumenda ullam corrupti eum voluptates ducimus saepe!</p>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 scrol-sec2-right">
                 <img src="img/port4.jpg" alt="" class="img-fluid">
             </div>
         </div>
@@ -278,7 +251,7 @@
                 
                 <div class="p-3 row text-center">
                     <div class="col-md-9 text-md-left">
-                        <span>©&nbsp; </span><span >2019</span><span>&nbsp;</span><span>SutepAndahuaylas</span><span>.&nbsp;</span><span>Todos los derechos reservados</span><span>&nbsp;</span>. Desarrollado&nbsp;por&nbsp;<a href="http://rezuam.intcap.org/" target="_blank">Rezuam</a>
+                        <span>©&nbsp; </span><span >2019</span><span>&nbsp;</span><span>SuteAndahuaylas</span><span>.&nbsp;</span><span>Todos los derechos reservados</span><span>&nbsp;</span>. Desarrollado&nbsp;por&nbsp;<a href="http://rezuam.intcap.org/" target="_blank">Rezuam</a>
                     </div>
                     <div class="col-md-3 text-md-right">
                         <a href="https://www.facebook.com/KevQL1109" target="_blank"><i class="mx-2 fab fa-facebook-f"></i></a>

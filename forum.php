@@ -20,14 +20,14 @@
 <body>
 
     <?php
-        include_once("modules/navegacion.html");
+        include_once("modules/navegacion_otros.html");
     ?>
 
     <div class="nav-espacio-forum"></div>
     <!-- EVENTO FORÚM-->
-    <div class="caja-padre" id="forum">
+    <div class="caja-padre scrol-seccion-forum" id="forum">
         <div class="text-center pb-3 seccion-forum">
-            <div class="clip-forum mb-0"></div>
+            <div class="clip-forum mb-0 scrol-clip"></div>
     
             <h2 class="py-2">GRAN EVENTO 2020</h2>            
             <h2 class="text-1 text-uppercase">FORÚM - 2020</h2>
@@ -45,7 +45,7 @@
     </section>
 
     <!-- SECCION PONENETES -->
-    <div class="container my-4">
+    <div class="container my-4 scrol-dias-ponencias">
         <div class="row text-center">
             <div class="col-md-12">
                 <h1 class="text-center">MIERCOLES 25 DE FEBRERO</h1> 
@@ -78,7 +78,7 @@
         </div>
     </div>
 
-    <div class="container my-4">
+    <div class="container my-4 scrol-dias-ponencias">
         <div class="row text-center">
             <div class="col-md-12">
                 <h1 class="text-center">JUEVES 26 DE FEBRERO</h1>
@@ -97,7 +97,7 @@
         </div>
     </div>
 
-    <div class="container my-4">
+    <div class="container my-4 scrol-dias-ponencias">
         <div class="row text-center">
             <div class="col-md-12">
                 <h1 class="text-center">VIERNES 27 DE FEBRERO</h1>

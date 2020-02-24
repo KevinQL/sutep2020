@@ -21,13 +21,13 @@
 <body>    
 
     <?php
-        include_once("modules/navegacion.html");
+        include_once("modules/navegacion_otros.html");
     ?>
 
     <div class="nav-espacio-forum"></div>
     <!-- CONTENIDO -->    
     <!-- SECTIÓN QUIENES SOMOS  -->
-    <section class="">
+    <section class="scrol-seccion-forum">
         <div class="container bg-light p-5 my-3 text-center">
             <h3>¿Quienes somos?</h3>
             <p>Somos una Organización encargada de velar por el bienestar del maestro andahuaylino y de la educación del Perú</p>
@@ -37,11 +37,11 @@
 
     <!-- sección equipo sutep-->
 
-    <section class="team-sutep">
+    <section class="team-sutep scrol-team">
         <div class="p-5 text-center lead fondo-transparent">
             <div class="container">
                 <h1 class="text-white">Organización</h1>
-                <p>El comité ejecutivo provincial 2019 que trabaja para ustedes</p>
+                <p>El comité ejecutivo provincial 2020 que trabaja para ustedes</p>
 
                 <div class="row">
 

@@ -27,15 +27,15 @@
     <div class="nav-espacio-forum"></div>
 
     <!-- SECCIÓN CERTIFICADO -->
-    <section class="cuerpo-certificado secction-principal">
+    <section class="cuerpo-certificado secction-principal scrol-certificado">
         <div class="fondo-transparente">
             <div class="container py-5">
                 <div class="nav-espacio-forum"></div>
                 <div class="row">
-                    <div class="col-md-6 text-center">
+                    <div class="col-md-6 text-center scrol-sec2-left">
                         <img src="img/certifiacdo1.png" class="img-fluid" width="370px;" alt="">
                     </div>
-                    <div class="col-md-6 justify-content-center align-self-center px-5 p-sm-5">
+                    <div class="col-md-6 justify-content-center align-self-center px-5 p-sm-5 scrol-sec2-right">
                         <div class="text-white lead ">
                             <div class="">
                                 <h3 class="text-center my-4">CERTIFICADO DOCENTE</h3>
