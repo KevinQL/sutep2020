@@ -48,41 +48,45 @@
     <div class="container my-4 scrol-dias-ponencias">
         <div class="row text-center">
             <div class="col-md-12">
-                <h1 class="text-center">MIERCOLES 25 DE FEBRERO</h1> 
+                <h1 class="text-center">MIERCOLES 26 DE FEBRERO</h1> 
                 <hr class="linea linea1">        
             </div>
-            <div class="col-md-6">            
+            <div class="col-md-12">
+                <h3>INAGURACIÓN</h3>
+                <p>Presentación de autoridades Politicas y Educativas.</p>
+                <p>9 : 00 am.</p>                
+            </div>
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
                 <div><i class="fas fa-user-tie fa-10x"></i></div>
-                <h3>Lorem, ipsum dolor.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, id?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, id?</p>
+                <h3>La Filosofía en estos últimos tiempos.</h3>
+                <p>Mg. Jhon Ochoa Filósofo  y Sociólogo - UMSM</p>
+                <p>10 : 30 am. – 1 : 00 pm.</p>
                 <p>
                     <button class="btn btn-lg btn-outline-dark">VER ARCHIVOS</button>
-                </p>
+                </p>                
             </div>
-            <div class="col-md-6">
-                <div><i class="fas fa-user-tie fa-10x"></i></div>
-                <h3>Lorem, ipsum dolor.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, id?</p>
-            </div>
-            <div class="col-md-6">            
-                <div><i class="fas fa-user-tie fa-10x"></i></div>
-                <h3>Lorem, ipsum dolor.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, id?</p>
-            </div>
-            <div class="col-md-6">
-                <div><i class="fas fa-user-tie fa-10x"></i></div>
-                <h3>Lorem, ipsum dolor.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, id?</p>
-            </div>
+            <div class="col-md-3"></div>
         </div>
     </div>
 
     <div class="container my-4 scrol-dias-ponencias">
         <div class="row text-center">
             <div class="col-md-12">
-                <h1 class="text-center">JUEVES 26 DE FEBRERO</h1>
+                <h1 class="text-center">JUEVES 27 DE FEBRERO</h1>
                 <hr class="linea linea2">               
+            </div>
+            <div class="col-md-6">            
+                <div><i class="fas fa-user-tie fa-10x"></i></div>
+                <h3>Desempeño Docente , Rubricas de Evaluación</h3>
+                <p>Prof. Cesar Hugo Tito Rojas Dirigente Nacional</p>
+                <p>8 : 00 am. - 10 : 30 am.</p>
+            </div>
+            <div class="col-md-6">
+                <div><i class="fas fa-user-tie fa-10x"></i></div>
+                <h3>Evaluación de Desempeño Docente y la cinco Rubricas de Evaluación</h3>
+                <p>Mg. Lirio Peña Canales y  la Mg. Celinda Chacnama Esquivel Consultor MINEDU</p>
+                <p>10 : 30 am. – 1 : 00 pm.</p>
             </div>
             <div class="col-md-6">            
                 <div><i class="fas fa-user-tie fa-10x"></i></div>
