@@ -88,7 +88,7 @@
     
     <section class="container my-2">
         <div class="row text-center ">
-            <div class="col-md-8 scrol-novedades">
+            <div class="col-md-8 scrol-novedades-br">
                 <h1>NOVEDADES</h1>
                 <hr class="linea linea3">
                 <div class="contenido_noticia">                
