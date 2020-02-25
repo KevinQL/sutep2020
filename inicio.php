@@ -38,22 +38,22 @@
                     <p class="texto-presentacion">POR UNA EDUCACIÓN CIENTÍFICA Y NACIONALISTA, REAL PARA EL DESARROLLO DE LOS PUEBLOS ANDINOS DE APURIMAC</p>
                     <ul class="list-unstyled list-inline my-5 ul-redes">
                         <li class="list-inline-item">
-                            <a href="https://www.facebook.com/sutepandahs/">
+                            <a href="https://www.facebook.com/Sute-Andahuaylas-Oficial-118870519500684/">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="https://www.facebook.com/sutepandahs/">
+                            <a href="https://www.facebook.com/Sute-Andahuaylas-Oficial-118870519500684/">
                                 <i class="fab fa-instagram"></i>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="https://www.facebook.com/sutepandahs/">
+                            <a href="https://www.facebook.com/Sute-Andahuaylas-Oficial-118870519500684/">
                                 <i class="fab fa-twitter"></i>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="https://www.facebook.com/sutepandahs/">
+                            <a href="https://www.facebook.com/Sute-Andahuaylas-Oficial-118870519500684/">
                                 <i class="fab fa-youtube"></i>
                             </a>
                         </li>
@@ -63,7 +63,7 @@
                         -->
                         <h4 class="display-4 texto-naranja">EVENTO SUTE 2020</h4>
                         <a href="?pg=forum" class="btn btn-lg btn-outline-warning rounded-0 display-2">
-                            IR Al CURSO 20202
+                            IR Al CURSO 2020
                         </a>
                     </form>
                     
@@ -150,10 +150,8 @@
                 <div class="nav-espacio-forum display-md-none"></div>
                 <h1>REDES</h1>
                 <hr class="linea linea2">
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSute-Andahuaylas-Oficial-118870519500684%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
                 <iframe width="340" height="240" src="https://www.youtube.com/embed/fE0v6lZ3fuw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <!--
-                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FRezuam-600773577055743%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-                -->
             </div>
         </div>
     </section>

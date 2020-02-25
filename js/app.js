@@ -25,38 +25,38 @@ sr.reveal('.scrol-clip',{
 });
 sr.reveal('.scrol-novedades',{
     duration:1500,
-    origin:'right',
+    origin:'top',
     distance:'50px',
     delay:1000
 });
 sr.reveal('.scrol-redes',{
     duration:2500,
-    origin:'left',
+    origin:'bottom',
     distance:'150px',
     delay:2000
 });
 sr.reveal('.scrol-sec1-left',{
     duration:2500,
-    origin:'right',
+    origin:'top',
     distance:'70px',
     delay:2000
 });
 sr.reveal('.scrol-sec1-right',{
     duration:2500,
-    origin:'left',
+    origin:'bottom',
     distance:'70px',
     delay:100
 });
 
 sr.reveal('.scrol-sec2-left',{
     duration:2500,
-    origin:'right',
+    origin:'top',
     distance:'70px',
     delay:100
 });
 sr.reveal('.scrol-sec2-right',{
     duration:2500,
-    origin:'left',
+    origin:'bottom',
     distance:'70px',
     delay:2000
 });
