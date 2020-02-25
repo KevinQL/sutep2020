@@ -3,7 +3,7 @@
 	|  Datos del servidor - Data of the server  |
 	===========================================*/
 	const SERVER="localhost";
-	const DB="cms";
+	const DB="ugelandahuaylas";
 	const USER="root";
 	const PASS="cardenas";
 
