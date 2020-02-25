@@ -93,12 +93,12 @@
                 
                 <div class="p-3 row text-center">
                     <div class="col-md-9 text-md-left">
-                        <span>©&nbsp; </span><span >2019</span><span>&nbsp;</span><span>SutepAndahuaylas</span><span>.&nbsp;</span><span>Todos los derechos reservados</span><span>&nbsp;</span>. Desarrollado&nbsp;por&nbsp;<a href="http://rezuam.intcap.org/" target="_blank">Rezuam</a>
+                        <span>©&nbsp; </span><span >2020</span><span>&nbsp;</span><span>SuteAndahuaylas</span><span>.&nbsp;</span><span>Todos los derechos reservados</span><span>&nbsp;</span>. Desarrollado&nbsp;por&nbsp;<a href="http://rezuam.com/" target="_blank">Rezuam</a>
                     </div>
                     <div class="col-md-3 text-md-right">
-                        <a href="https://www.facebook.com/KevQL1109" target="_blank"><i class="mx-2 fab fa-facebook-f"></i></a>
-                        <a href="#" target="_blank"><i class="mx-2 fab fa-twitter"></i></a>
-                        <a href="#" target="_blank"><i class="mx-2 fab fa-instagram"></i></a>                        
+                        <a href="http://rezuam.com/" target="_blank"><i class="mx-2 fab fa-facebook-f"></i></a>
+                        <a href="http://rezuam.com/" target="_blank"><i class="mx-2 fab fa-twitter"></i></a>
+                        <a href="http://rezuam.com/" target="_blank"><i class="mx-2 fab fa-instagram"></i></a>                        
                     </div>
                 </div>
             
