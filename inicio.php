@@ -35,7 +35,7 @@
                     <img src="img/logosutep.png" alt="imagen1" class="img-fluid" style="width: 285px;">
                 </div>
                 <div class="col-md-6 text-center">
-                    <p class="texto-presentacion">POR UNA EDUCACIÓN CIENTÍFICA Y NACIONALISTA, REAL PARA EL DESARROLLO DE LOS PUEBLOS ANDINOS DE APURIMAC</p>
+                    <p class="texto-presentacion">POR UNA EDUCACIÓN CIENTÍFICA Y EL  DESARROLLO DE LOS PUEBLOS ANDINOS DEL PERÚ</p>
                     <ul class="list-unstyled list-inline my-5 ul-redes">
                         <li class="list-inline-item">
                             <a href="https://www.facebook.com/Sute-Andahuaylas-Oficial-118870519500684/">

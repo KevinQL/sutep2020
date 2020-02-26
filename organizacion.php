@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SutepAndahuaylas</title>
+    <title>SuteAndahuaylas</title>
 
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
@@ -49,8 +49,8 @@
                         <div class="card card-person-sutep">
                             <div class="card-body">
                                 <img src="img/person.png" alt="" class="img-fluid rounded-circle h-50 w-50">
-                                <h3>Prof. Nombre y Apellido</h3>
-                                <p><small>SECRETARIO GENERAL</small></p>
+                                <h3>Prof. Luisa Landa Fernández</h3>
+                                <p><small>SECRETARÍA GENERAL</small></p>
                                 <div class="d-flex flex-row justify-content-center ">
                                     <div class="px-4">
                                         <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -70,7 +70,7 @@
                         <div class="card card-person-sutep">
                             <div class="card-body">
                                 <img src="img/person.png" alt="" class="img-fluid rounded-circle h-50 w-50">
-                                <h3>Prof. Nombre y Apellido</h3>
+                                <h3>Prof. Jose Luis Ruiz Molina</h3>
                                 <p><small>SUB SECRETARIO GENERAL</small></p>
                                 <div class="d-flex flex-row justify-content-center ">
                                     <div class="px-4">
@@ -91,7 +91,7 @@
                         <div class="card card-person-sutep">
                             <div class="card-body">
                                 <img src="img/person.png" alt="" class="img-fluid rounded-circle h-50 w-50">
-                                <h3>Prof. Nombre y Apellido</h3>
+                                <h3>Prof. Cesar Manuel Ruiz Saldaña</h3>
                                 <p><small>SECRETARIO DE ORGANIZACIÓN Y ESTADÍSTICA</small></p>
                                 <div class="d-flex flex-row justify-content-center ">
                                     <div class="px-4">
@@ -112,8 +112,8 @@
                         <div class="card card-person-sutep">
                             <div class="card-body">
                                 <img src="img/person.png" alt="" class="img-fluid rounded-circle h-50 w-50">
-                                <h3>Prof. Nombre y Apellido</h3>
-                                <p><small>SECRETARIA DE ECONOMÍA Y LOGÍSTICA</small></p>
+                                <h3>Prof. Washington Pocco Cárdenas</h3>
+                                <p><small>SECRETARIO DE ECONOMÍA Y LOGÍSTICA</small></p>
                                 <div class="d-flex flex-row justify-content-center ">
                                     <div class="px-4">
                                         <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -133,7 +133,7 @@
                         <div class="card card-person-sutep">
                             <div class="card-body">
                                 <img src="img/person.png" alt="" class="img-fluid rounded-circle h-50 w-50">
-                                <h3>Prof. Nombre y Apellido</h3>
+                                <h3>Prof. Roy Leguía Huayana</h3>
                                 <p><small>SECRETARIO DE PRENSA Y COMUNICACIONES</small></p>
                                 <div class="d-flex flex-row justify-content-center ">
                                     <div class="px-4">
@@ -154,7 +154,7 @@
                         <div class="card card-person-sutep">
                             <div class="card-body">
                                 <img src="img/person.png" alt="" class="img-fluid rounded-circle h-50 w-50">
-                                <h3>Prof. Nombre y Apellido</h3>
+                                <h3>Prof. Gumercindo Ccopa Huayhua</h3>
                                 <p> <small>SECRETARIO DE ASUNTOS PEDAGÓGICOS</small></p>
                                 <div class="d-flex flex-row justify-content-center ">
                                     <div class="px-4">
@@ -175,7 +175,7 @@
                         <div class="card card-person-sutep">
                             <div class="card-body">
                                 <img src="img/person.png" alt="" class="img-fluid rounded-circle h-50 w-50">
-                                <h3>Prof. Nombre y Apellido</h3>
+                                <h3>Prof. Luzmila Lizarme Fernández</h3>
                                 <p><small>SECRETARIA DE DESARROLLO DE LA MUJER DOCENTE</small></p>
                                 <div class="d-flex flex-row justify-content-center ">
                                     <div class="px-4">
@@ -196,8 +196,8 @@
                         <div class="card card-person-sutep">
                             <div class="card-body">
                                 <img src="img/person.png" alt="" class="img-fluid rounded-circle h-50 w-50">
-                                <h3>Prof. Nombre y Apellido</h3>
-                                <p><small>SECRETARIO DEL INTERIOR, ACTAS Y ARCHIVOS</small></p>
+                                <h3>Prof. Margarita Ccarhuas Pérez</h3>
+                                <p><small>SECRETARIA DEL INTERIOR, ACTAS Y ARCHIVOS</small></p>
                                 <div class="d-flex flex-row justify-content-center ">
                                     <div class="px-4">
                                         <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -217,7 +217,7 @@
                         <div class="card card-person-sutep">
                             <div class="card-body">
                                 <img src="img/person.png" alt="" class="img-fluid rounded-circle h-50 w-50">
-                                <h3>Prof. Nombre y Apellido</h3>
+                                <h3>Prof. Mauricio Altamirano Laura</h3>
                                 <p><small>SECRETARIO DE PROMOCÍON DEL DEPORTE Y CULTURA</small></p>
                                 <div class="d-flex flex-row justify-content-center ">
                                     <div class="px-4">
@@ -238,7 +238,7 @@
                         <div class="card card-person-sutep">
                             <div class="card-body">
                                 <img src="img/person.png" alt="" class="img-fluid rounded-circle h-50 w-50">
-                                <h3>Prof. Nombre y Apellido</h3>
+                                <h3>Prof. Wilber Palomino Romero</h3>
                                 <p><small>SECRETARIO DE DDHH, JUVENTUD Y DOCENTES CONTRATADOS</small></p>
                                 <div class="d-flex flex-row justify-content-center ">
                                     <div class="px-4">
@@ -259,8 +259,48 @@
                         <div class="card card-person-sutep">
                             <div class="card-body">
                                 <img src="img/person.png" alt="" class="img-fluid rounded-circle h-50 w-50">
-                                <h3>Prof. Nombre y Apellido</h3>
-                                <p><small>SECRETARIO DE RELACIONES POPULARES E INTERSECTORIALES</small></p>
+                                <h3>Prof. Adolfo Eduardo Ticóna Cárdenas</h3>
+                                <p><small>SECRETARIO DE DEFENSA Y AUTODEFENSA</small></p>
+                                <div class="d-flex flex-row justify-content-center ">
+                                    <div class="px-4">
+                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    </div>
+                                    <div class="px-4">
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                    </div>
+                                    <div class="px-4">
+                                        <a href="#"><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-3 my-2">
+                        <div class="card card-person-sutep">
+                            <div class="card-body">
+                                <img src="img/person.png" alt="" class="img-fluid rounded-circle h-50 w-50">
+                                <h3>Prof. David Hurtado Carbajal</h3>
+                                <p><small>SECRETARIO DE ASUNTOS ESTUDIANTILES, RELACIONES CON PF.</small></p>
+                                <div class="d-flex flex-row justify-content-center ">
+                                    <div class="px-4">
+                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    </div>
+                                    <div class="px-4">
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                    </div>
+                                    <div class="px-4">
+                                        <a href="#"><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-3 my-2">
+                        <div class="card card-person-sutep">
+                            <div class="card-body">
+                                <img src="img/person.png" alt="" class="img-fluid rounded-circle h-50 w-50">
+                                <h3>Prof. Marily Sotomayor Ccente</h3>
+                                <p><small>SECRETARIA DE RELACIONES POPULARES E INTERSECTORIALES</small></p>
                                 <div class="d-flex flex-row justify-content-center ">
                                     <div class="px-4">
                                         <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -280,29 +320,8 @@
                         <div class="card card-person-sutep">
                             <div class="card-body">
                                 <img src="img/person.png" alt="" class="img-fluid rounded-circle h-50 w-50">
-                                <h3>Prof. Nombre y Apellido</h3>
-                                <p><small>SECRETARIO DE ASUNTOS ESTUDIANTILES RRPPFF</small></p>
-                                <div class="d-flex flex-row justify-content-center ">
-                                    <div class="px-4">
-                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    </div>
-                                    <div class="px-4">
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                    </div>
-                                    <div class="px-4">
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 col-lg-3 my-2">
-                        <div class="card card-person-sutep">
-                            <div class="card-body">
-                                <img src="img/person.png" alt="" class="img-fluid rounded-circle h-50 w-50">
-                                <h3>Prof. Nombre y Apellido</h3>
-                                <p><small>SECRETARIO DE ECOLOGÍA Y DEFENSA DEL MEDIO AMBIENTE</small></p>
+                                <h3>Prof. Olivia Gutierrez Gonzales</h3>
+                                <p><small>SECRETARIA DE ECOLOGÍA Y DEFENSA DEL MEDIO AMBIENTE</small></p>
                                 <div class="d-flex flex-row justify-content-center ">
                                     <div class="px-4">
                                         <a href="#"><i class="fab fa-facebook-f"></i></a>

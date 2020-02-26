@@ -56,16 +56,25 @@
                 <p>Presentación de autoridades Politicas y Educativas.</p>
                 <p>9 : 00 am.</p>                
             </div>
-            <div class="col-md-3"></div>
             <div class="col-md-6">
                 <div><i class="fas fa-user-tie fa-10x"></i></div>
-                <h3>La Filosofía en estos últimos tiempos.</h3>
+                <h3>La Filosofía en estos últimos tiempos</h3>
                 <h4>Mg. Jhon Ochoa</h4>
                 <p>Filósofo  y Sociólogo - UMSM</p>
                 <p>10 : 30 am. – 1 : 00 pm.</p>
-                <p>
+                <!--<p>
                     <button class="btn btn-lg btn-outline-dark">VER ARCHIVOS</button>
-                </p>                
+                </p>-->                
+            </div>
+            <div class="col-md-6">
+                <div><i class="fas fa-user-tie fa-10x"></i></div>
+                <h3>Análisis de la crisis educativa Nacional y perspectivas de lucha</h3>
+                <h4>Mg. Mery Inez Coila Ramirez</h4>
+                <p>Dirigente nacional Tacna</p>
+                <p>2 : 30 pm. – 6 : 00 pm.</p>
+                <!--<p>
+                    <button class="btn btn-lg btn-outline-dark">VER ARCHIVOS</button>
+                </p>-->                
             </div>
             <div class="col-md-3"></div>
         </div>
@@ -79,17 +88,24 @@
             </div>
             <div class="col-md-6">            
                 <div><i class="fas fa-user-tie fa-10x"></i></div>
-                <h3>Desempeño Docente , Rubricas de Evaluación</h3>
-                <h4>Prof. Cesar Hugo Tito Rojas</h4>
-                <p>Dirigente Nacional</p>
+                <h3>Evaluación de Desempeño Docente y la cinco Rubricas de Evaluación</h3>
+                <h4>Mg. Lirio Peña Canales y  la Mg. Celinda Chacnama Esquivel </h4>
+                <p>Consultor MINEDU</p>
                 <p>8 : 00 am. - 10 : 30 am.</p>
             </div>
             <div class="col-md-6">
                 <div><i class="fas fa-user-tie fa-10x"></i></div>
-                <h3>Evaluación de Desempeño Docente y la cinco Rubricas de Evaluación</h3>
-                <h4>Mg. Lirio Peña Canales y  la Mg. Celinda Chacnama Esquivel </h4>
-                <p>Consultor MINEDU</p>
+                <h3>Desempeño Docente por Rubricas de Evaluación y sus implicancias en la estabilidad laboral</h3>
+                <h4>Prof. Cesar Hugo Tito Rojas</h4>
+                <p>Dirigente Nacional</p>
                 <p>10 : 30 am. – 1 : 00 pm.</p>
+            </div>
+            <div class="col-md-6">
+                <div><i class="fas fa-user-tie fa-10x"></i></div>
+                <h3>Analisis de la ley general de Educación N° 2044, 29944 y su modificatoria 30541</h3>
+                <h4>Prof. Cesar Hugo Tito Rojas</h4>
+                <p>Dirigente Nacional</p>
+                <p>2 : 30 pm. – 6 : 00 pm.</p>
             </div>
         </div>
     </div>
@@ -102,17 +118,17 @@
             </div>
             <div class="col-md-6">            
                 <div><i class="fas fa-user-tie fa-10x"></i></div>
-                <h3>El Uso de las Tic durante el proceso de aprendizaje.</h3>
+                <h3>El Uso de las Tic durante el proceso de aprendizaje</h3>
                 <h4>Mg. Flor de María Aguilar Apahuasco</h4>
                 <p>Consultor MINEDU</p>
-                <p>8 : 00 am. - 10 : 30 am.</p>
+                <p>8 : 00 am. - 1 : 00 pm.</p>
             </div>
             <div class="col-md-6">
                 <div><i class="fas fa-user-tie fa-10x"></i></div>
-                <h3>Planificación Curricular: PEI, Unidad de Aprendizaje, Proyectos, Sesión de aprendizaje y Evaluación.</h3>
+                <h3>Planificación Curricular: PEI, Unidad de Aprendizaje, Proyectos, Sesión de aprendizaje y Evaluación</h3>
                 <h4>Mg. Celinda Chacnama Esquivel</h4>
                 <p>Esquivel. Consultor MINEDU</p>
-                <p>10 : 30 am. – 1 : 00 pm.</p>
+                <p>2 : 30 pm. – 6 : 00 pm.</p>
             </div>
         </div>
     </div>
@@ -151,7 +167,7 @@
                 <h3>Análisis de la Realidad Nacional y Lineamientos Político nacional y Regional</h3>
                 <h4>Dr. Sigisfredo Chiroque</h4>
                 <p>Investigador Social</p>
-                <p>8:00 am. - 10:30 am</p>
+                <p>8 : 00 am. - 10 : 30 am.</p>
             </div>
             <div class="col-md-6">
                 <div><i class="fas fa-user-tie fa-10x"></i></div>
@@ -159,6 +175,20 @@
                 <h4>Dr. Víctor Tenorio García</h4>
                 <p>Investigador en Lengua originaria UNSCH</p>
                 <p>10 : 30 am. – 1 : 00 pm.</p>
+            </div>
+            <div class="col-md-6">            
+                <div><i class="fas fa-user-tie fa-10x"></i></div>
+                <h3>Neurociencia Aplicada a la pedagogía en el Perú</h3>
+                <h4>Mg. Ivan Camacho Blas</h4>
+                <p>Docente Investigador Itinerante</p>
+                <p>2 : 00 pm. - 4 : 00 pm.</p>
+            </div>
+            <div class="col-md-6">
+                <div><i class="fas fa-user-tie fa-10x"></i></div>
+                <h3>Estudio comparativo de competencias y objetivos en la educación latino americana</h3>
+                <h4>Mg. Ivan Camacho Blas</h4>
+                <p>Docente Investigador Itinerante</p>
+                <p>4 : 00 pm. – 6 : 00 pm.</p>
             </div>
         </div>
     </div>
@@ -169,15 +199,20 @@
                 <h1 class="text-center">JUEVES 05 DE MARZO</h1> 
                 <hr class="linea linea1">        
             </div>
-            <div class="col-md-3"></div>
             <div class="col-md-6">
                 <div><i class="fas fa-user-tie fa-10x"></i></div>
-                <h3>Análisis y debate sobre el Proyecto Educativo Regional de Apurímac.</h3>
+                <h3>Análisis y debate sobre el Proyecto Educativo Regional de Apurímac</h3>
                 <h4>Gobierno Regional de Apurímac</h4>
                 <p>DREA (Equipo de trabajo)</p>
                 <p>8 : 00 am. - 1 : 00 pm.</p>              
             </div>
-            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div><i class="fas fa-user-tie fa-10x"></i></div>
+                <h3>Sindicalismo Clasista en América Latina y Europa</h3>
+                <h4>Mg. Ivan Camacho Blas</h4>
+                <p>Docente Investigador Itinerante</p>
+                <p>2 : 30 pm. - 6 : 00 pm.</p>              
+            </div>
         </div>
     </div>
 
@@ -201,6 +236,13 @@
                 <p>Director del Área de Gestión Pedagógico DREA</p>
                 <p>10 : 30 am. – 1 : 00 pm.</p>
             </div>
+            <div class="col-md-6">
+                <div><i class="fas fa-user-tie fa-10x"></i></div>
+                <h3>Violencia sobre la familia y el papel de la mujer en la educación peruana</h3>
+                <h4>Mg. Ivan Camacho Blas</h4>
+                <p>Docente Investigador Itinerante</p>
+                <p>2 : 30 pm. - 6 : 00 pm.</p>              
+            </div>
         </div>
     </div>
 
@@ -215,14 +257,21 @@
                 <h3>Situación Legal de las Bases Regionales del Perú FENATEPERU</h3>
                 <h4>Dr. Hilso Ramos Cosme</h4>
                 <p>Departamento Legal de las Bases Regionales del Perú</p>
-                <p>8:00 am. - 10:30 am</p>
+                <p>8 : 00 am. - 10 : 00 am.</p>
+            </div>
+            <div class="col-md-6">
+                <div><i class="fas fa-user-tie fa-10x"></i></div>
+                <h3>Pensamiento crítico e investigación en la educación del Perú</h3>
+                <h4>Mg. Ivan Camacho Blas</h4>
+                <p>Docente Investigador Itinerante</p>
+                <p>10 : 00 am. - 12 : 30 pm.</p>              
             </div>
             <div class="col-md-6">
                 <div><i class="fas fa-user-tie fa-10x"></i></div>
                 <h3>Clausura</h3>
                 <h4>CEP SUTEP Andahuaylas</h4>
                 <p>Presencia de José Pedro Castillo Dirigente Nacional</p>
-                <p>11 : 00 am. – 12 : 00 pm.</p>
+                <p>12 : 30 pm. – 2 : 00 pm.</p>
             </div>
         </div>
     </div>
