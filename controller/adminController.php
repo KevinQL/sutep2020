@@ -35,6 +35,43 @@
                 return $num*3;
             }
         }
+
+        public function obtener_docentes($dni){
+            $sql = "SELECT id, dni, nombres, apellidos FROM docente WHERE dni = {$dni}";
+            $resDB = mainModel::ejecutar_una_consulta($sql);
+            $docentesAll = array();            
+            while($registro = $resDB->fetch(PDO::FETCH_ASSOC)){                
+                $docentesAll[] = $registro;                
+            }
+            return json_encode($docentesAll);
+        }
+
+        public function insertar_docente($datos_get){
+            $sql = "INSERT INTO docente (id,dni,nombres,apellidos,tipo,observacion,celular) VALUES (NULL,'{$datos_get['dni']}','{$datos_get['nombres']}','{$datos_get['apellidos']}','{$datos_get['tipo']}','{$datos_get['observacion']}','{$datos_get['celular']}')";            
+            $resDB = mainModel::ejecutar_una_consulta($sql);
+            if($resDB->rowCount()>0){
+                return json_encode(true);
+            }            
+            return json_encode(false);
+        }
+        
+        public function asistencia_docente($datos_get){
+            $sql = "INSERT INTO certificado (id,dni,anio,tipo,estado) VALUES (NULL,'{$datos_get['dni']}','{$datos_get['anio']}','{$datos_get['tipo']}','{$datos_get['estado']}')";            
+            $resDB = mainModel::ejecutar_una_consulta($sql);
+            if($resDB->rowCount()>0){
+                return json_encode(true);
+            }            
+            return json_encode(false);            
+        }
+
+        public function verificar_asistencia_docente($datos_get){
+            $sql = "SELECT id,dni,anio FROM certificado WHERE dni='{$datos_get['dni']}' AND anio = '{$datos_get['anio']}'";        
+            $resDB = mainModel::ejecutar_una_consulta($sql);
+            if($resDB->rowCount()>0){
+                return json_encode(true);
+            }            
+            return json_encode(false); 
+        }
     }
     
 

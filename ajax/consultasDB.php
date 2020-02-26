@@ -15,6 +15,29 @@ if(isset($_GET['accion']) && !empty($_GET['accion'])){
         $objetdb = new adminController();
         $users = $objetdb->obtener_noticias_controller($select_num_pg);
         echo $users;
+    }elseif ($accion == "TRAER_DOCENTES") {
+        # code...        
+        $dni_docente = $_GET['dni'];
+
+        $objetdb = new adminController();
+        $res_docente = $objetdb->obtener_docentes($dni_docente);
+        echo $res_docente;
+    }elseif ($accion == "INSERTAR_DOCENTE") {
+        # code...
+        $objetdb = new adminController();
+        $res_docente = $objetdb->insertar_docente($_GET);
+        echo $res_docente;
+        //echo json_encode("INSERTAR DOCENTE ajx");
+    }elseif ($accion == "ASISTENCIA_DOCENTE") {
+        # code...
+        $objetdb = new adminController();
+        $res_docente = $objetdb->asistencia_docente($_GET);
+        echo $res_docente;
+    }elseif ($accion == "VERIFICAR_ASISTENCIA") {
+        # code...
+        $objetdb = new adminController();
+        $res_docente = $objetdb->verificar_asistencia_docente($_GET);
+        echo $res_docente;
     }
 
 }else {
