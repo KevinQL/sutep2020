@@ -1,7 +1,7 @@
 <?php
 	require_once('tcpdf/config/lang/eng.php');
 	require_once('tcpdf/tcpdf.php');
-	require_once('conexion.php');
+	//require_once('conexion.php');
 
 	$pdf = new TCPDF('P', 'mm', 'A4', true, 'UTF-8', false);
 	$pdf->SetTitle('PDF Autogenerado en PHP'); //Titlo del pdf

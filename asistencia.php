@@ -36,11 +36,15 @@
                         <div class="text-white lead ">
                             <div class="">
                                 <h3 class="text-center mb-2">ASISTENCIA DOCENTE</h3>
-                                <h5 id="advertencia-asistencia"><span class="p-1">Esperando...</span></h5>
+                                <div class="mb-2">
+                                    <label for="">ID_DOC: </label>
+                                    <input type="text" style="background:transparent; color:red" name="id-asis" disabled id="id-asis" value="">
+                                </div>
+                                <h5 id="advertencia-asistencia"><span class="p-1">Esperando...</span></h5>                                
                                 <div class="row">
                                     <div class="col-md-4">
                                         <div class="form-group">
-                                            <label class="text-left">INGRSE DNI</label>                                        
+                                            <label class="text-left">INGRESE DNI</label>                                        
                                             <input type="number" name="dni-asis" class="form-control form-control-lg" id="dni-asis" required="required" placeholder="DNI...">
                                             <div class="text-sm" id="rs-cons-asis"><span>Esperando...</span></div>
                                         </div>  
@@ -55,7 +59,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="form-group">
+                                        <div class="form-group">                                            
                                             <label class="text-left">TIPO</label>
                                             <select name="tipo-asis" id="tipo-asis" class="form-control form-control-lg d-inline bg-outline-secondary">
                                                 <option value="0">ASISTENTE</option>
@@ -66,13 +70,13 @@
                                     </div>                                    
                                     <div class="col-md-4">
                                         <div class="form-group">
-                                            <label class="text-left">INGRSE NOMBRES</label>                                        
+                                            <label class="text-left">INGRESE NOMBRES</label>                                        
                                             <input type="text" name="nombres-asis" class="form-control form-control-lg" id="nombres-asis" required="required" placeholder="NOMBRES...">
                                         </div> 
                                     </div>
                                     <div class="col-md-8">
                                         <div class="form-group">
-                                            <label class="text-left">INGRSE APELLIDOS</label>                                        
+                                            <label class="text-left">INGRESE APELLIDOS</label>                                        
                                             <input type="text" name="apellidos-asis" class="form-control form-control-lg" id="apellidos-asis" required="required" placeholder="APELLIDOS...">
                                         </div>
                                     </div>
@@ -85,7 +89,7 @@
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label class="text-left">OBSERVACION</label>                                        
-                                            <textarea class="form-control" name="observacion-asis" id="observacion-asis" cols="50" rows="2"></textarea>
+                                            <textarea class="form-control" name="observacion-asis" id="observacion-asis" cols="50" rows="2" placeholder="OBS."></textarea>
                                         </div>  
                                     </div>
                                     <div class="col-md-12 text-center my-1" id="advertencia-cant-docente">
@@ -112,14 +116,57 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            
-                    <div class="nav-espacio-forum"></div>
-                    <div class="nav-espacio-forum"></div>
-                    <div class="nav-espacio-forum"></div>
-
+            </div>                     
+            <div class="nav-espacio-forum"></div>
         </div>
+    </section>
 
+    <!-- SECCION BUSCAR -->
+    <section class="bg-darkFondo-asis pb-5">
+        <div class="container">
+            <h3 class="text-white text-center lead py-3">BUSCAR DOCENTE</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">                                    
+                        <input type="text" name="nombres-bsc-asis" class="form-control form-control-lg" id="nombres-bsc-asis" required="required" placeholder="NOMBRES...">
+                    </div> 
+                </div>
+                <div class="col-md-8">
+                    <div class="form-group">                                     
+                        <input type="text" name="apellidos-bsc-asis" class="form-control form-control-lg" id="apellidos-bsc-asis" required="required" placeholder="APELLIDOS...">
+                    </div>
+                </div>
+                <div class="col-md-12 text-center">
+                    <table class="table table-dark">
+                        <thead>
+                            <tr>
+                                <th scope="col">#ENUM</th>
+                                <th scope="col">NOMBRE</th>
+                                <th scope="col">APELLIDO</th>
+                                <th scope="col">DNI</th>
+                                <th scope="col">TIPO</th>
+                                <th scope="col">OPCION</th>
+                            </tr>
+                        </thead>
+                        <tbody id="reslist-doce-asis">
+                            <!--<tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>Otto</td>
+                                <td>Otto</td>
+                                <td>
+                                    <button class="btn btn-sm btn-warning">
+                                        ELEGIR
+                                    </button>
+                                </td>
+                            </tr>
+                            -->
+                        </tbody>
+                    </table>                
+                </div>
+            </div>
+        </div>
     </section>
 
 

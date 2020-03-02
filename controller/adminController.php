@@ -37,7 +37,7 @@
         }
 
         public function obtener_docentes($dni){
-            $sql = "SELECT id, dni, nombres, apellidos FROM docente WHERE dni = {$dni}";
+            $sql = "SELECT id, dni, nombres, apellidos,celular,observacion,tipo FROM docente WHERE dni = {$dni}";
             $resDB = mainModel::ejecutar_una_consulta($sql);
             $docentesAll = array();            
             while($registro = $resDB->fetch(PDO::FETCH_ASSOC)){                
@@ -72,6 +72,47 @@
             }            
             return json_encode(false); 
         }
+
+        public function comprobar_certificado_doc($datos_get){
+
+            $sql="SELECT docente.id,docente.dni,docente.nombres,docente.apellidos,certificado.anio,certificado.tipo,certificado.estado FROM docente INNER JOIN certificado ON docente.dni = certificado.dni WHERE certificado.dni = '{$datos_get['dni']}' AND certificado.anio = '{$datos_get['anio']}' AND certificado.estado = 1";
+            $resDB = mainModel::ejecutar_una_consulta($sql);
+            if($resDB->rowCount()>0){
+                return json_encode(true);
+            }           
+            return json_encode(false);            
+        }
+        //funcion relacionado con la emision de certificado
+        public function infoDocenteParaCertificado($dni,$anio){
+            
+            $sql="SELECT docente.nombres,docente.apellidos,certificado.dni,certificado.tipo,certificado.anio,certificado.estado FROM docente INNER JOIN certificado ON docente.dni = certificado.dni WHERE certificado.dni = '{$dni}' AND certificado.anio = '{$anio}' AND certificado.estado = 1";
+            $resDB = mainModel::ejecutar_una_consulta($sql);
+            if($resDB->rowCount()>0){
+                return $resDB->fetch(PDO::FETCH_ASSOC);                                
+            }            
+            return false;
+        }
+
+        public function actualizar_docente_controller($datos_get){
+
+            $sql = "UPDATE docente SET dni = '{$datos_get['dni']}', nombres = '{$datos_get['nombres']}', apellidos = '{$datos_get['apellidos']}', tipo = '{$datos_get['tipo']}', observacion = '{$datos_get['observacion']}', celular='{$datos_get['celular']}' WHERE dni = '{$datos_get['dni']}' AND id= '{$datos_get['id_docente']}'";
+            $resDB = mainModel::ejecutar_una_consulta($sql);
+            if($resDB->rowCount()>0){
+                return json_encode(true);
+            }            
+            return json_encode(false); 
+        }
+
+        public function traerdoc_nomyape_list($datos_get){
+            $sql = "SELECT id, dni, nombres, apellidos, tipo FROM docente WHERE nombres LIKE '%{$datos_get['nombres']}%' AND apellidos LIKE '%{$datos_get['apellidos']}%' LIMIT 10";
+            $resDB = mainModel::ejecutar_una_consulta($sql);
+            $docentesAll_lst = array();            
+            while($registro = $resDB->fetch(PDO::FETCH_ASSOC)){                
+                $docentesAll_lst[] = $registro;                
+            }
+            return json_encode($docentesAll_lst);
+        }
+
     }
     
 

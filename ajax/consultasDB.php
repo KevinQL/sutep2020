@@ -38,6 +38,21 @@ if(isset($_GET['accion']) && !empty($_GET['accion'])){
         $objetdb = new adminController();
         $res_docente = $objetdb->verificar_asistencia_docente($_GET);
         echo $res_docente;
+    }elseif ($accion == "COMPROBAR_CERTIFICADO") {
+        # code...
+        $objetdb = new adminController();
+        $res_docente = $objetdb->comprobar_certificado_doc($_GET);
+        echo $res_docente;        
+    }elseif ($accion == "ACTUALIZAR_DOCENTE") {
+        # code...
+        $objetdb = new adminController();
+        $res_docente = $objetdb->actualizar_docente_controller($_GET);
+        echo $res_docente;
+    }elseif($accion == "TRAERDOCENTE_LIST_ASIS"){
+        #code
+        $objetdb = new adminController();
+        $res_docente = $objetdb->traerdoc_nomyape_list($_GET);
+        echo $res_docente;
     }
 
 }else {

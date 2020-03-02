@@ -108,6 +108,10 @@ body{
     border-color: #07daff;
 }
 
+
+.bg-darkFondo-asis{
+    background-color: #343a40d5!important;
+}
 @media screen and (min-width:480px){
     .display-md-none{
         display: none;

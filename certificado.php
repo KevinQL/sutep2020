@@ -42,7 +42,7 @@
                                 <form id="formulario">
                                     <div class="form-group">
                                         <label class="text-left">Seleccione Año del Evento</label>
-                                        <select name="anio" id="anio" class="form-control form-control-sm d-inline bg-outline-secondary">
+                                        <select name="anio-certi" id="anio-certi" class="form-control form-control-sm d-inline bg-outline-secondary">
                                             <option value="2020">2020</option>
                                             <option value="2019">2019</option>
                                         </select>
@@ -52,7 +52,7 @@
                                         <input type="text" class="form-control form-control-sm d-inline" disabled readonly="readonly" value="DNI ▼">
                                     </div>                                    
 
-                                    <input type="number" name="dni" class="form-control form-control-lg" id="dni" required="required" placeholder="Ingrese DNI">
+                                    <input type="number" name="dni-certi" class="form-control form-control-lg" id="dni-certi" required="required" placeholder="Ingrese DNI">
 
                                     <button class="btn btn-lg btn-outline-warning btn-block my-3" id="btn-obtener">
                                         OBTENER
