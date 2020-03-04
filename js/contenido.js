@@ -71,7 +71,6 @@ function obtener_Noticia(select_num_pg, orientacion){
                 <div class="col-md-12">
                     <h4>${element.titulo}</h4>
                     <p>${element.introduccion}</p>
-                    <p>${element.ruta}</p>
                     <button class="btn btn-sm btn-color-noticia" data-toggle="modal" data-target="#staticBackdrop${enumNoticia}">ver mas</button>
                     <!-- Modal -->
                     <div class="modal fade" id="staticBackdrop${enumNoticia}" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdrop${enumNoticia}Label" aria-hidden="true">
@@ -85,7 +84,7 @@ function obtener_Noticia(select_num_pg, orientacion){
                         </div>
                         <div class="modal-body">
                             <div class="">
-                                <img src="img/${element.ruta}" alt="" class="img-fluid">
+                                <img src="/backend/${element.ruta}" alt="" class="img-fluid">
                             </div>
                             <p class="my-2 descripcion_not">
                                 ${element.introduccion}
