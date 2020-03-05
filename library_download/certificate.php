@@ -19,9 +19,13 @@ try {
         echo "PARA EMITIR SU CERTIFICADO, COMUNIQUESE CON EL RESPONSABLE DEL EVENTO";
         //header("location:/"); //Si está vacio me redirecciona al inicio de la página
     }else{
+        //recuperando datos de docente para emitir certificado - version antigua
+        //$nombre=utf8_encode($result['nombres']);   //soluciona problemas de tildes       
+        //$apellido = utf8_encode($result['apellidos']); //soluciona problemas de tildes ## -- averiguar -- utf8_decode($registro['campo'])
+         
         //recuperando datos de docente para emitir certificado
-        $nombre=utf8_encode($result['nombres']);   //soluciona problemas de tildes       
-        $apellido = utf8_encode($result['apellidos']); //soluciona problemas de tildes ## -- averiguar -- utf8_decode($registro['campo'])
+        $nombre = $result['nombres'];       
+        $apellido = $result['apellidos'];
         $tipo = $result['tipo'];
         $aniodb = $result['anio'];
         $estado = $result['estado'];
