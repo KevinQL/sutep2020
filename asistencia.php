@@ -71,13 +71,13 @@
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <label class="text-left">INGRESE NOMBRES</label>                                        
-                                            <input type="text" name="nombres-asis" class="form-control form-control-lg" id="nombres-asis" required="required" placeholder="NOMBRES...">
+                                            <input type="text" name="nombres-asis" class="form-control form-control-lg nombres-bsc-asis" id="nombres-asis" required="required" placeholder="NOMBRES...">
                                         </div> 
                                     </div>
                                     <div class="col-md-8">
                                         <div class="form-group">
                                             <label class="text-left">INGRESE APELLIDOS</label>                                        
-                                            <input type="text" name="apellidos-asis" class="form-control form-control-lg" id="apellidos-asis" required="required" placeholder="APELLIDOS...">
+                                            <input type="text" name="apellidos-asis" class="form-control form-control-lg apellidos-bsc-asis" id="apellidos-asis" required="required" placeholder="APELLIDOS...">
                                         </div>
                                     </div>
                                     <div class="col-md-6">
@@ -110,6 +110,13 @@
                                             ASISTENCIA
                                         </button>  
                                     </div>
+
+                                    <div class="col-md-4">                                        
+                                        <div class="form-group">
+                                            <label class="text-left bg-dark d-block text-center my-0">COINCIDENCIAS</label>    
+                                            <span id="coinci-asis-num" class="d-block lead bold bg-dark text-center my-0 text-warning">...</span>                                            
+                                        </div>  
+                                    </div>
                                 </div>                                                                    
 
                             </div>
@@ -126,6 +133,7 @@
         <div class="container">
             <h3 class="text-white text-center lead py-3">BUSCAR DOCENTE</h3>
             <div class="row">
+                <!--
                 <div class="col-md-4">
                     <div class="form-group">                                    
                         <input type="text" name="nombres-bsc-asis" class="form-control form-control-lg" id="nombres-bsc-asis" required="required" placeholder="NOMBRES...">
@@ -136,6 +144,7 @@
                         <input type="text" name="apellidos-bsc-asis" class="form-control form-control-lg" id="apellidos-bsc-asis" required="required" placeholder="APELLIDOS...">
                     </div>
                 </div>
+                -->
                 <div class="col-md-12 text-center">
                     <table class="table table-dark">
                         <thead>

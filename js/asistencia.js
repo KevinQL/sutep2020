@@ -81,6 +81,7 @@ function guardar_y_asistencia(){
 
         }else{
             console.log("campos vacios!!")
+            alert("DATOS INCORRECTOS!!! :/")
         }
     }
 }
@@ -192,6 +193,10 @@ function limpiar_form_asistencia(){
     //limpiar otros datos
     document.getElementById("celular-asis").value = "";
     document.getElementById("observacion-asis").value = "";
+
+    //coincidencias num
+    document.querySelector("#coinci-asis-num").innerHTML = "...";
+    document.getElementById("reslist-doce-asis").innerHTML = "";
 }
 function limpiar_form_asistencia2(){
     document.querySelector("#dni-asis").value = "";
@@ -207,6 +212,10 @@ function limpiar_form_asistencia2(){
     //limpiar otros datos
     document.getElementById("celular-asis").value = "";
     document.getElementById("observacion-asis").value = "";
+
+    //coincidencias num
+    document.querySelector("#coinci-asis-num").innerHTML = "...";
+    document.getElementById("reslist-doce-asis").innerHTML = "";
 }
 
 /************************************** */
@@ -270,26 +279,52 @@ function buscar_docente_nomyapell(){
     let el = document.getElementById("reslist-doce-asis");
     if(el){
 
-        let bsc_txt_nom = document.getElementById("nombres-bsc-asis");
-        let bsc_txt_ape = document.getElementById("apellidos-bsc-asis");
+        let bsc_txt_nom = document.querySelector(".nombres-bsc-asis");
+        let bsc_txt_ape = document.querySelector(".apellidos-bsc-asis");
         let txt_nom,txt_ape;
+        //dni txt
+        let bsc_txt_dni = document.querySelector("#dni-asis");
 
         bsc_txt_nom.addEventListener("keyup",function(){
             txt_nom = this.value.trim();
             txt_ape = bsc_txt_ape.value.trim();
-            traedocent_por_nomyapell(txt_nom,txt_ape);
+            if(txt_ape !== "" || txt_nom !== ""){
+                traedocent_por_nomyapell(txt_nom,txt_ape);
+            }else{
+                //coincidencias num
+                document.querySelector("#coinci-asis-num").innerHTML = "0";
+                document.getElementById("reslist-doce-asis").innerHTML = "";
+            }
         })
 
         bsc_txt_ape.addEventListener("keyup",function(){
             txt_nom = bsc_txt_nom.value.trim();
             txt_ape = this.value.trim();
-            traedocent_por_nomyapell(txt_nom,txt_ape);
+            if(txt_ape !== "" || txt_nom !== ""){
+                traedocent_por_nomyapell(txt_nom,txt_ape);
+            }else{
+                //coincidencias num
+                document.querySelector("#coinci-asis-num").innerHTML = "0";
+                document.getElementById("reslist-doce-asis").innerHTML = "";
+            }
         })
         
+        //---- cuando digite dni
+        bsc_txt_dni.addEventListener("blur",function(){
+            txt_ape = bsc_txt_ape.value.trim();
+            txt_nom = bsc_txt_nom.value.trim();
+            if(txt_ape !== "" || txt_nom !== "" && this.value.length === 8){
+                traedocent_por_nomyapell(txt_nom,txt_ape);
+            }else{
+                //coincidencias num
+                document.querySelector("#coinci-asis-num").innerHTML = "...";
+                document.getElementById("reslist-doce-asis").innerHTML = "";
+            }
+        })
     }
 }
 function traedocent_por_nomyapell(nombres,apellidos){
-    console.log(nombres, apellidos);
+    console.log("->",nombres, apellidos);
 
     if(nombres.trim() !== "" || apellidos.trim() !== ""){
         
@@ -318,6 +353,8 @@ function traedocent_por_nomyapell(nombres,apellidos){
                 //imprimir los datos en la tabla
                 let el = document.getElementById("reslist-doce-asis");
                 el.innerHTML=reslistHtml;
+                //coincidencias num
+                document.querySelector("#coinci-asis-num").innerHTML = cont_num;
 
             }
         }
