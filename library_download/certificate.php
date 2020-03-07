@@ -80,7 +80,7 @@ try {
             }elseif ($aniodb == "2020") {
                 # code...
                 $pdf->SetFont('Helvetica', 'B', 21);
-                $pdf->Ln(79);
+                $pdf->Ln(75);
                 $pdf->Cell(260,6,' '.$nombre.' '.$apellido,0,0,'C');
         
                 $style = array(
@@ -101,7 +101,7 @@ try {
                 );
         
                 // CODE 128 C - BARCODE
-                $pdf->write1DBarcode($dni, 'C128C', 249,70, '60', 20, 0.4, $style, 'N');	
+                $pdf->write1DBarcode($dni, 'C128C', 249,65, '60', 20, 0.4, $style, 'N');	
 
             }
     
