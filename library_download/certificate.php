@@ -52,30 +52,58 @@ try {
                         $pdf->Image('images/'.$urlCerti.'/ugel2.png', 0, 0,300,211); 
                     }
                 } 
-    
-            $pdf->SetFont('Helvetica', 'B', 21);
-            $pdf->Ln(90);
-            $pdf->Cell(260,6,' '.$nombre.' '.$apellido,0,0,'C');
-    
-            $style = array(
-                'position' => '',
-                'align' => 'C',
-                'stretch' => false,
-                'fitwidth' => true,
-                'cellfitalign' => '',
-                'border' => false,
-                'hpadding' => 'auto',
-                'vpadding' => 'auto',
-                'fgcolor' => array(0,0,0), //array(0,0,0)
-                'bgcolor' => false, //array(255,255,255),
-                'text' => true,
-                'font' => 'helvetica',
-                'fontsize' => 8,
-                'stretchtext' => 4
-            );
-    
-            // CODE 128 C - BARCODE
-            $pdf->write1DBarcode($dni, 'C128C', 250,180, '', 20, 0.4, $style, 'N');	
+            //condicional para controlar las posiciones de los nombres
+            if($aniodb == "2019"){
+                $pdf->SetFont('Helvetica', 'B', 21);
+                $pdf->Ln(90);
+                $pdf->Cell(260,6,' '.$nombre.' '.$apellido,0,0,'C');
+        
+                $style = array(
+                    'position' => '',
+                    'align' => 'C',
+                    'stretch' => false,
+                    'fitwidth' => true,
+                    'cellfitalign' => '',
+                    'border' => false,
+                    'hpadding' => 'auto',
+                    'vpadding' => 'auto',
+                    'fgcolor' => array(0,0,0), //array(0,0,0)
+                    'bgcolor' => false, //array(255,255,255),
+                    'text' => true,
+                    'font' => 'helvetica',
+                    'fontsize' => 8,
+                    'stretchtext' => 4
+                );
+        
+                // CODE 128 C - BARCODE
+                $pdf->write1DBarcode($dni, 'C128C', 250,180, '', 20, 0.4, $style, 'N');	
+            }elseif ($aniodb == "2020") {
+                # code...
+                $pdf->SetFont('Helvetica', 'B', 21);
+                $pdf->Ln(79);
+                $pdf->Cell(260,6,' '.$nombre.' '.$apellido,0,0,'C');
+        
+                $style = array(
+                    'position' => '',
+                    'align' => 'C',
+                    'stretch' => false,
+                    'fitwidth' => true,
+                    'cellfitalign' => '',
+                    'border' => false,
+                    'hpadding' => 'auto',
+                    'vpadding' => 'auto',
+                    'fgcolor' => array(0,0,0), //array(0,0,0)
+                    'bgcolor' => false, //array(255,255,255),
+                    'text' => false,
+                    'font' => 'helvetica',
+                    'fontsize' => 8,
+                    'stretchtext' => 4
+                );
+        
+                // CODE 128 C - BARCODE
+                $pdf->write1DBarcode($dni, 'C128C', 249,70, '60', 20, 0.4, $style, 'N');	
+
+            }
     
             $pdf->lastPage();
             ob_end_clean();
