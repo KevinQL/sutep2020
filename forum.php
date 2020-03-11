@@ -99,8 +99,11 @@
                 <h4>Prof. Cesar Hugo Tito Rojas</h4>
                 <p>Dirigente Nacional</p>
                 <p>10 : 30 am. – 1 : 00 pm.</p>
+                <p>                    
+                    <a href="./documentos/Dia_27_Maestro_Tito_(Puno).rar" class="btn btn-lg btn-outline-dark">DESCARGAR ARCHIVOS</a>
+                </p>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <div><i class="fas fa-user-tie fa-10x"></i></div>
                 <h3>Analisis de la ley general de Educación N° 2044, 29944 y su modificatoria 30541</h3>
                 <h4>Prof. Cesar Hugo Tito Rojas</h4>
@@ -122,13 +125,16 @@
                 <h4>Mg. Flor de María Aguilar Apahuasco</h4>
                 <p>Consultor MINEDU</p>
                 <p>8 : 00 am. - 1 : 00 pm.</p>
+                <p>                    
+                    <a href="./documentos/Dia_28_Maestra_Flor_A_(ayacucho).rar" class="btn btn-lg btn-outline-dark">DESCARGAR ARCHIVOS</a>
+                </p>
             </div>
             <div class="col-md-6">
                 <div><i class="fas fa-user-tie fa-10x"></i></div>
                 <h3>Planificación Curricular: PEI, Unidad de Aprendizaje, Proyectos, Sesión de aprendizaje y Evaluación</h3>
                 <h4>Mg. Celinda Chacnama Esquivel</h4>
                 <p>Esquivel. Consultor MINEDU</p>
-                <p>2 : 30 pm. – 6 : 00 pm.</p>
+                <p>2 : 30 pm. – 6 : 00 pm.</p>                
             </div>
         </div>
     </div>
@@ -145,6 +151,9 @@
                 <h4>Edgardo Tritini</h4>
                 <p>Dirigente Nacional de los Maestros de Chile</p>
                 <p>8:00 am. - 10:30 am</p>
+                <p>                    
+                    <a href="./documentos/edgardo_tritine_CHILE.rar" class="btn btn-lg btn-outline-dark">DESCARGAR ARCHIVOS</a>
+                </p>
             </div>
             <div class="col-md-6">
                 <div><i class="fas fa-user-tie fa-10x"></i></div>
@@ -152,6 +161,9 @@
                 <h4>Bladimir Esquivel Carhuas</h4>
                 <p>Docente de la UMSM y Enrique Guzmán y Valle</p>
                 <p>10:30 am. – 1:00 pm</p>
+                <p>                    
+                    <a href="./documentos/Día_28_Maestro_Bladmir_(UNMSM)_comp_lect.rar" class="btn btn-lg btn-outline-dark">DESCARGAR ARCHIVOS</a>
+                </p>
             </div>
         </div>
     </div>
@@ -175,6 +187,9 @@
                 <h4>Dr. Víctor Tenorio García</h4>
                 <p>Investigador en Lengua originaria UNSCH</p>
                 <p>10 : 30 am. – 1 : 00 pm.</p>
+                <p>                    
+                    <a href="./documentos/doctor_Victor_tenoria.rar" class="btn btn-lg btn-outline-dark">DESCARGAR ARCHIVOS</a>
+                </p>
             </div>
             <div class="col-md-6">            
                 <div><i class="fas fa-user-tie fa-10x"></i></div>
@@ -203,8 +218,11 @@
                 <div><i class="fas fa-user-tie fa-10x"></i></div>
                 <h3>Análisis y debate sobre el Proyecto Educativo Regional de Apurímac</h3>
                 <h4>Gobierno Regional de Apurímac</h4>
-                <p>DREA (Equipo de trabajo)</p>
-                <p>8 : 00 am. - 1 : 00 pm.</p>              
+                <p>DREA (Equipo de trabajo)</p>                
+                <p>8 : 00 am. - 1 : 00 pm.</p> 
+                <p>                    
+                    <a href="./documentos/Dia_5_Maestra_GIANNIS_(DREA).rar" class="btn btn-lg btn-outline-dark">DESCARGAR ARCHIVOS</a>
+                </p>             
             </div>
             <div class="col-md-6">
                 <div><i class="fas fa-user-tie fa-10x"></i></div>
@@ -228,6 +246,9 @@
                 <h4>Dr. Julio Miguel Reza Huaroc.</h4>
                 <p>Laboralista Internacional</p>
                 <p>8 : 00 am. – 10 : 30 am.</p>
+                <p>                    
+                    <a href="./documentos/doctor_Julio_Reza_huaroc2020.rar" class="btn btn-lg btn-outline-dark">DESCARGAR ARCHIVOS</a>
+                </p>
             </div>
             <div class="col-md-6">
                 <div><i class="fas fa-user-tie fa-10x"></i></div>
@@ -236,7 +257,7 @@
                 <p>Director del Área de Gestión Pedagógico DREA</p>
                 <p>10 : 30 am. – 1 : 00 pm.</p>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <div><i class="fas fa-user-tie fa-10x"></i></div>
                 <h3>Violencia sobre la familia y el papel de la mujer en la educación peruana</h3>
                 <h4>Mg. Ivan Camacho Blas</h4>
@@ -266,7 +287,7 @@
                 <p>Docente Investigador Itinerante</p>
                 <p>10 : 00 am. - 12 : 30 pm.</p>              
             </div>
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <div><i class="fas fa-user-tie fa-10x"></i></div>
                 <h3>Clausura</h3>
                 <h4>CEP SUTEP Andahuaylas</h4>
